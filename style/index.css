@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid rgb(0, 107, 121);
+    color: white;
+  }
+  .container {
+    margin: auto;
+    padding: 5px 5px;
+    border: 12px ridge #3e3f7e;
+    background-color:#1dcdda;
+  }
+  .header {
+    display: flex-wrap;
+    width: 100%;
+    background: rgb(236, 141, 78);
+  }
+  .header #headerName {
+    display: flex;
+    padding-left: 2%;
+  }
+  .header h2 {
+    font-size: 3rem;
+    color: #F3ECD4;
+  } 
+  .navBar {
+    align-items: center;
+    display: flex;
+    padding: 10px 30px;
+  }
+  .navBar a {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    color: white;
+  }
+  .navBar a:hover {
+    color: yellow;
+    border: 1px solid rgb(56, 233, 218);
+    background-color: rgb(24, 175, 105);
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main img {
+    width: 50%;
+    justify-content: space-evenly;  
+  }
+  .main .test{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    justify-content: flex-start;
+  }
+  .main .test h2 {
+    padding-left: 5%;
+  }
+  .button {
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    background-color: rgb(60, 159, 240);
+    color: rgb(129, 129, 129);
+    align-content: center;
+  }
+  .button:hover {
+    color: purple;
+    border: 1px solid red;
+    background-color: yellow;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-content: center;
+  }
+  .images {
+    max-width: 20%;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .gallery.images{
+    max-height: auto;
+    justify-content: center;
+  }
+  .gallery.images h4{
+    align-content: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 90, 155);
+    height: 25%;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+  }
+  .footer h3 {
+    align-content: center;
+    padding: 5%;
+    width: auto;
+    font-size: auto;
+    display: block;
+  }
+  .container.footer a {
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    color: white;
+    padding: 5%;
+    width: auto;
+  }
+  .container.footer a:hover {
+    color: yellow;
+    border: 1px solid yellow;
+    background-color: purple;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
