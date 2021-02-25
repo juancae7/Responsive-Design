@@ -6,6 +6,11 @@
     border: 1px solid rgb(0, 107, 121);
     color: white;
   }
+
+  html{
+    font-size: 62.5%;
+  }
+  
   .container {
     margin: auto;
     padding: 5px 5px;
@@ -15,7 +20,7 @@
   .header {
     display: flex-wrap;
     width: 100%;
-    background: rgb(236, 141, 78);
+    background: rgb(168, 178, 238);
   }
   .header #headerName {
     display: flex;
@@ -23,7 +28,7 @@
   }
   .header h2 {
     font-size: 3rem;
-    color: #F3ECD4;
+    color: #9e51ca;
   } 
   .navBar {
     align-items: center;
@@ -123,15 +128,43 @@
     border: 1px solid yellow;
     background-color: purple;
   }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgb(17, 1, 1);
+  padding: 20px 1.25%;
+  }
   
+  @media(max-width: 500px) {
+    .container {
+      background: rgb(30, 92, 226);
+    }
+    .navBar a {
+       
+      color: green;
+
+    }
+    .header {
+      color: white;
+    }
+
+    .container header nav {
+      display: flex;
+      flex-direction: column;
+      background: #28e247;
+      margin-bottom: 20px;
+    }
+    .header h2 {
   
-  
-  
-  
-  
-  
-  
-  
+      color: rgb(25, 155, 206)
+    }
+
+    .button {
+      color:hotpink;
+    }
+
+  }
   
   
   
